@@ -77,8 +77,8 @@ function draw() {
           circleY = fingertip.y;
 
           // 在圖層上畫出手指的軌跡
-          trailGraphics.stroke(255, 0, 0); // 紅色線條
-          trailGraphics.strokeWeight(10); // 線條粗細為 10
+          trailGraphics.stroke(255, 100, 100); // 紅色線條
+          trailGraphics.strokeWeight(20); // 線條粗細為 10
           trailGraphics.line(previousX, previousY, fingertip.x, fingertip.y);
 
           // 更新上一個位置
