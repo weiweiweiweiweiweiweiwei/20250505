@@ -90,9 +90,9 @@ function draw() {
 
         // 繪製食指的點
         if (hand.handedness == "Left") {
-          fill(255, 0, 255); // 左手顏色
+          fill(5, 0, 255); // 左手顏色
         } else {
-          fill(255, 255, 0); // 右手顏色
+          fill(25, 255, 0); // 右手顏色
         }
         noStroke();
         circle(fingertip.x, fingertip.y, 16);
